@@ -119,10 +119,10 @@ Suggested approach: audit what's driving the support tickets, fix the friction p
 
 ## Assumptions and Limitations
 
-- The 8 duplicate user IDs were flagged but retained — they're less than 1% of the data and unlikely to change the results.
+- The 8 duplicate user IDs were flagged but retained , they're less than 1% of the data and unlikely to change the results.
 - Missing device_type and traffic_source records were excluded from those specific segment analyses only.
 - The revenue per converted user drop may reflect a plan mix difference rather than truly lower-value customers, but this needs confirmation with longer-term data.
-- The experiment covers one time period — seasonal or novelty effects can't be fully ruled out.
+- The experiment covers one time period, seasonal or novelty effects can't be fully ruled out.
 - No master user list was available to validate user IDs against.
 
 ---
