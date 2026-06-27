@@ -9,11 +9,11 @@
 
 ## Executive Summary
 
-We ran an A/B test of the new onboarding and activation campaign. The results show a clear and statistically significant improvement in paid conversions — the Treatment group converted at 7.0% compared to 3.2% in the Control group, which is more than double the rate.
+We ran an A/B test of the new onboarding and activation campaign. The results show a clear and statistically significant improvement in paid conversions,  the Treatment group converted at 7.0% compared to 3.2% in the Control group, which is more than double the rate.
 
 **My recommendation: Launch the campaign, but address the support ticket issue first.**
 
-The conversion improvement is real and the data is solid. But one guardrail metric — support tickets — showed a concerning spike in the Treatment group that needs to be understood before a full rollout. The campaign may be creating confusion or unmet expectations for some users.
+The conversion improvement is real and the data is solid. But one guardrail metric, support ticket, showed a concerning spike in the Treatment group that needs to be understood before a full rollout. The campaign may be creating confusion or unmet expectations for some users.
 
 ---
 
@@ -34,9 +34,9 @@ The company wants to improve how many users convert from free/trial to paid subs
 
 ## North Star Metric
 
-**Paid Conversion Rate** — the percentage of users who convert to a paid plan within 30 days.
+**Paid Conversion Rate** : the percentage of users who convert to a paid plan within 30 days.
 
-This is the right North Star because it directly measures whether the campaign achieved its purpose: turning more users into paying customers. Revenue, engagement, and onboarding completion are all important, but they only matter if they lead to this outcome.
+This is the right North Star because it directly measures whether the campaign achieved its purpose: turning more users into paying customers. Revenue, engagement and onboarding completion are all important, but they only matter if they lead to this outcome.
 
 **What to watch out for:** If we optimize only for conversion rate, we might attract lower-quality users who convert quickly but churn fast or generate refunds. That's why we also track revenue per converted user and refund rate as guardrails.
 
@@ -46,17 +46,17 @@ This is the right North Star because it directly measures whether the campaign a
 
 The North Star (Paid Conversion Rate) breaks down into three main drivers:
 
-**1. Acquisition Quality** — Are the right users even entering the funnel?
+**1. Acquisition Quality** : Are the right users even entering the funnel?
 - Landing page visit rate
 - Traffic source quality
 - Device type mix
 
-**2. Onboarding Effectiveness** — Do users actually get through the process?
+**2. Onboarding Effectiveness** : Do users actually get through the process?
 - Trial start rate
 - Onboarding completion rate
 - Engagement score during onboarding
 
-**3. Conversion Readiness** — Are users ready and willing to pay?
+**3. Conversion Readiness** : Are users ready and willing to pay?
 - Days to convert
 - Plan type chosen
 - Segment (region, device)
@@ -108,16 +108,16 @@ This is the most important section for the launch decision.
 Control had zero refund requests. Treatment had 3 (0.4%). This is a small number, but the direction is concerning. It suggests a few users in Treatment converted but then changed their minds. Worth watching closely post-launch.
 
 **2. Support Ticket Rate**
-This is the most significant concern. Treatment users raised support tickets at an average rate of 0.372 vs 0.219 in Control — a **70% increase**. This is statistically significant (p < 0.001). The new campaign appears to be driving confusion or creating expectations that the product isn't meeting for some users. This increases operational costs and could hurt user satisfaction scores.
+This is the most significant concern. Treatment users raised support tickets at an average rate of 0.372 vs 0.219 in Control -a **70% increase**. This is statistically significant (p < 0.001). The new campaign appears to be driving confusion or creating expectations that the product isn't meeting for some users. This increases operational costs and could hurt user satisfaction scores.
 
 **3. Revenue per Converted User**
 Treatment converted users generated ₹770 on average vs ₹1,630 in Control — a drop of 53%. This sounds alarming, but it may simply reflect that Treatment attracted more users on lower-value plans (Free users converting to Basic, for example) while Control had fewer but higher-value conversions. The overall revenue per user (across all users, not just converters) only differs by ₹2, which suggests the total revenue impact is small. Still, this should be tracked post-launch.
 
 **4. Engagement Score**
-Treatment users scored 62.9 vs 57.0 in Control — a meaningful improvement. This is a positive guardrail signal: users in Treatment are more engaged, which typically correlates with lower long-term churn.
+Treatment users scored 62.9 vs 57.0 in Control -a meaningful improvement. This is a positive guardrail signal: users in Treatment are more engaged, which typically correlates with lower long-term churn.
 
 **5. Days to Convert**
-Treatment users converted 2.4 days faster on average (6.4 vs 8.9 days). This is good — faster conversion means less time for users to drop off.
+Treatment users converted 2.4 days faster on average (6.4 vs 8.9 days). This is good, faster conversion means less time for users to drop off.
 
 ---
 
@@ -130,7 +130,7 @@ The campaign worked across all regions, but North showed the strongest lift (+5.
 Mobile and Tablet users showed the largest gains (Treatment vs Control: +4.7pp and +5.3pp respectively). Desktop lift was smaller (+2.0pp). This suggests the new campaign experience may be particularly well-suited to mobile.
 
 **By Plan Type:**
-Free users in Treatment converted at 9.2% vs 3.1% in Control — a lift of +6.1pp. This is the standout segment. Basic plan users showed almost no improvement (+0.2pp), which is worth investigating.
+Free users in Treatment converted at 9.2% vs 3.1% in Control, a lift of +6.1pp. This is the standout segment. Basic plan users showed almost no improvement (+0.2pp), which is worth investigating.
 
 ---
 

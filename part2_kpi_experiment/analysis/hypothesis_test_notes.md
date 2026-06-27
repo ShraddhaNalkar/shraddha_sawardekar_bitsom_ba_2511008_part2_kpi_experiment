@@ -2,9 +2,9 @@
 
 ## What We're Testing
 
-The company ran an experiment where some users got the old onboarding experience (Control) and others got the new campaign experience (Treatment). We want to know: did the new campaign actually help more users convert to paid subscribers, or did it just look better by chance?
+The company ran an experiment where some users got the old onboarding experience (Control) and others got the new campaign experience (Treatment). We want to know: did the new campaign actually help more users convert to paid subscribers or did it just look better by chance?
 
-To answer that properly, we need a formal statistical test — not just eyeballing the numbers.
+To answer that properly, we need a formal statistical test, not just eyeballing the numbers.
 
 ---
 
@@ -32,7 +32,7 @@ The new campaign genuinely improves the paid conversion rate. The Treatment grou
 | Metric tested | Paid conversion rate | This is the primary success metric (North Star) |
 
 **Why paid conversion rate?**
-It's the most direct measure of whether the campaign achieved its goal. Everything else — landing page visits, trial starts, onboarding completions — is a stepping stone. Conversion is what actually generates revenue.
+It's the most direct measure of whether the campaign achieved its goal. Everything else, landing page visits, trial starts, onboarding completions, is a stepping stone. Conversion is what actually generates revenue.
 
 ---
 
@@ -63,7 +63,7 @@ The p-value of **0.000573** means there is less than a 0.06% chance that this di
 
 The Z-statistic of **3.25** is well above the critical value of 1.645 for a one-tailed test at α = 0.05. This confirms the result is statistically significant.
 
-The relative lift is **+121%** — Treatment converted at more than double the rate of Control (6.99% vs 3.17%).
+The relative lift is **+121%** = Treatment converted at more than double the rate of Control (6.99% vs 3.17%).
 
 ---
 
@@ -71,7 +71,7 @@ The relative lift is **+121%** — Treatment converted at more than double the r
 
 The test result is clear: the new onboarding campaign works. It significantly improved the proportion of users who converted to paid, and the result is not due to chance.
 
-**However**, statistical significance alone is not enough to make a launch decision. The test only tells us the conversion rate improved. We also need to check whether the quality of those conversions held up — specifically, whether revenue per converted user, refund rates, and support burden changed in ways that offset the conversion gains.
+However, statistical significance alone is not enough to make a launch decision. The test only tells us the conversion rate improved. We also need to check whether the quality of those conversions held up specifically, whether revenue per converted user, refund rates and support burden changed in ways that offset the conversion gains.
 
 See the Guardrail Metrics section of the recommendation memo for that analysis.
 
